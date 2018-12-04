@@ -90,6 +90,8 @@ Implemented solution: width: 100% aplied to all elements within section's divs.
 
 ## Deployment
 
+[GitHub](https://lesmoke.github.io/TheMonkees/)
+
 ## Credits
 
 ### Content
