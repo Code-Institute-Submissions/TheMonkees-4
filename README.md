@@ -88,6 +88,8 @@ Implemented solution: display:flex and flex-wrap: wrap applied to section area.
 Problem 2: some elements was sticking out of the divs, when the browser window was too small.  
 Implemented solution: width: 100% aplied to all elements within section's divs.
 
+Problem 3: target: _parent
+
 ## Deployment
 
 [GitHub](https://lesmoke.github.io/TheMonkees/)
