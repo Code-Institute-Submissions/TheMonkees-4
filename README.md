@@ -28,12 +28,8 @@ there will be 2 rows of 2 buttons. The buttons are News, Media, Photos and Book 
 the form of responsive Navigation Bar.  
 The logo should always stay on the top of the page and lead us back to the homepage.  
 Footer also uses Bootstrap to display content in 1 or 3 rows.  
-
-#### News
-
-I also choose Bootstrap Grid System to present the section content in a responsive way. This time with sorting content in 1 or 2
+I also choose Bootstrap Grid System to present the section content in a responsive way. This time with sorting content in 1, 2 or 3
 columns, depending on the screen size.
-
 
 To bring some life and to attract user's attention I have used Hover.css and Font Awesome that were introtuced to me in The Resume Project.
 
@@ -41,11 +37,14 @@ To bring some life and to attract user's attention I have used Hover.css and Fon
 
 ### Existing Features
 
+##### Index
+Index.html displays fullscreen landing graphic and after clicking it you can see the rest of the page in iframe.
+
 ##### Media
-Allows users to play. stop and navigate mp3 songs and mp4 videos by using HTML5 <audio> and <video> widgets.
+Allows users to play. stop and navigate mp3 songs and mp4 videos by using HTML5 audio and video widgets.
  
 ##### Photos
-Allows users to scroll through ga;;ery and to open images in a new window by simply clicking on them
+Allows users to scroll through gallery and to open images in a new window by simply clicking on them
 
 ##### Book Us 
 Allows users to book an event, by having them fill out the contact form. 
@@ -80,7 +79,13 @@ Microsoft Edge 42.17134.1.0
 
 [W3C validator](https://validator.w3.org/)
 
-During the test 2 problems have been found.
+### Sample screenshots
+
+![960px](/assets/images/screenshots/960px.jpg)
+![iPadPro](/assets/images/screenshots/iPadPro.jpg)
+![iPhoneX](/assets/images/screenshots/iPhoneX.jpg)
+
+During the test 3 problems have been found and solved.
 
 Problem 1: Grid was not acting properly, when pushing divs to the new line. Some divs got stuck on the right side, because of the div height.  
 Implemented solution: display:flex and flex-wrap: wrap applied to section area.
@@ -88,7 +93,12 @@ Implemented solution: display:flex and flex-wrap: wrap applied to section area.
 Problem 2: some elements was sticking out of the divs, when the browser window was too small.  
 Implemented solution: width: 100% aplied to all elements within section's divs.
 
-Problem 3: target: _parent
+Problem 3: links on news.html displayed within iframe on index.html were openen inside the iframe, which was causing problems.   
+Implemented solution: target: _parent aplied to all links on news.html.
+
+#### Unsolved problem
+
+Problem 4: the background picture is acting wrong on mobile devices. It's known problem and can be solved with JavaScript.  
 
 ## Deployment
 
@@ -107,6 +117,3 @@ All graphics, music, video and pictures were provided by Code Institute
 ### Acknowledgements
 
 I would like to thank to Code Institute team and Victor Miclovich, my mentor.
-
-
-
