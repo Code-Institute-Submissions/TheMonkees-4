@@ -60,6 +60,7 @@ header{
 }
 
 /*--------------------------------------------Section - Article*/
+
 .article {
     min-height: 100px;
     padding: 20px;
@@ -231,10 +232,6 @@ img {
     background: #d41414;
     color: white;
 }
-
-
-
-
 
 /*--------------------------------------------Footer*/
 
